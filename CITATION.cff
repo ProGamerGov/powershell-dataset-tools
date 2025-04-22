@@ -1,0 +1,15 @@
+abstract: "PowerShell GUI scripts for manually working with datasets."
+authors:
+  - family-names: Egan
+    given-names: Ben
+cff-version: 1.2.0
+date-released: "2025-04-22"
+keywords:
+  - "image sorting"
+  - dataset
+  - powershell
+  - research
+license: MIT
+message: "If you use this software, please cite it using these metadata."
+repository-code: "https://github.com/ProGamerGov/powershell-dataset-tools"
+title: "powershell-dataset-tools"
