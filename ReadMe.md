@@ -14,7 +14,8 @@ A fast and intuitive PowerShell-based image sorting tool for quickly organizing 
 ### ✨ Features
 
 - 📂 Quickly sort images into 4 custom category folders
-- ⌨️ Keyboard shortcuts: `←`/`→` to navigate, `1–4` to sort
+- ⌨️ Keyboard shortcuts: `←` / `→` to navigate the UI, `1–4` to sort  
+   - `Enter` activates the currently focused button (e.g., Previous/Next) for faster keyboard navigation
 - 🖱️ Click-based UI with resizable controls
 - 🖼️ Full image preview with zoom-to-fit
 - 📁 Auto-creates category subfolders inside the selected folder
