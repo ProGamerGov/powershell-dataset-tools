@@ -43,3 +43,42 @@ A fast and intuitive PowerShell-based image sorting tool for quickly organizing 
 3. Select a folder with images that have a .jpg, .jpeg, .png, .gif, or .bmp extension.
 
 4. Start sorting images
+
+
+## 🏷️ PowerShell Image Captioning Tool
+
+A companion tool to the sorting script, this PowerShell GUI helps you view, create, and edit image captions stored in individual `.txt` files.
+
+![UI Screenshot](examples/example_image_captioning_tool.jpg)
+
+---
+
+### ✨ Features
+
+- 🖼️ Displays images alongside editable captions
+- 📝 Edit and save captions to `.txt` files
+- 📁 Captions are read from and saved to files in the format of `<image_name.extension>.txt`
+
+---
+
+### 🚀 Getting Started
+
+#### 🧾 Requirements
+
+- Windows with PowerShell (tested on PowerShell 5.1)
+- .NET Framework (for `System.Windows.Forms` and `System.Drawing`)
+
+---
+
+#### 🛠️ Usage
+
+1. Clone this repo or download the `.ps1` script.
+
+2. Run the script in PowerShell by right clicking on it and selecting 'Run with PowerShell' or by entering the following command like this:
+   ```powershell
+   .\ImageCaptioningTool.ps1
+   ```
+
+3. Select a folder containing images.
+
+4. Begin editing captions.
