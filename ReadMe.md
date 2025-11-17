@@ -86,6 +86,8 @@ A companion tool to the sorting script, this PowerShell GUI helps you view, crea
 
 ## 🏷️ PowerShell Image Captioning Comparison Tool
 
+![UI Screenshot](examples/example_image_captioning_comparison_tool.jpg)
+
 An modified version of companion tool to the sorting script, this PowerShell GUI helps you view, create, and edit image captions stored in individual `.txt` files, alongside a second set of matching caption filenames in a separate directory.
 
 This script is useful when you compare the quality of different captions for the same image, for each image in your dataset.
