@@ -82,3 +82,44 @@ A companion tool to the sorting script, this PowerShell GUI helps you view, crea
 3. Select a folder containing images.
 
 4. Begin editing captions.
+
+
+## 🏷️ PowerShell Image Captioning Comparison Tool
+
+An modified version of companion tool to the sorting script, this PowerShell GUI helps you view, create, and edit image captions stored in individual `.txt` files, alongside a second set of matching caption filenames in a separate directory.
+
+This script is useful when you compare the quality of different captions for the same image, for each image in your dataset.
+
+---
+
+### ✨ Features
+
+- 🖼️ Displays images alongside editable captions
+- 📝 Edit and save captions to `.txt` files
+- 📁 Captions are read from and saved to files in the format of `<image_name.extension>.txt`
+
+---
+
+### 🚀 Getting Started
+
+#### 🧾 Requirements
+
+- Windows with PowerShell (tested on PowerShell 5.1)
+- .NET Framework (for `System.Windows.Forms` and `System.Drawing`)
+
+---
+
+#### 🛠️ Usage
+
+1. Clone this repo or download the `.ps1` script.
+
+2. Run the script in PowerShell by right clicking on it and selecting 'Run with PowerShell' or by entering the following command like this:
+   ```powershell
+   .\ImageCaptioningCompareTool.ps1
+   ```
+
+3. Select a folder containing images alongside captions in txt files.
+
+4. Select a second folder containing a second set of txt file captions.
+
+5. Begin editing captions.
